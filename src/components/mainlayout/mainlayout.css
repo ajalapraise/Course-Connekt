@@ -1,0 +1,12 @@
+div .mainlayout {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+}
+
+.main {
+    flex-grow: 1;
+    background-color: rgb(245, 254, 254);
+}

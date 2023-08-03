@@ -1,0 +1,102 @@
+.nav-cont {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 10px auto;
+    z-index: 9999;
+    font-size: 1.5rem;
+}
+
+.nav-main-cont {
+    display: flex;
+    flex-direction: row;
+    width: 98%;
+    padding: 10px;
+    padding-bottom: 5px;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    width: 20%;
+    padding: 10px;
+    margin-left: 5%;
+}
+
+.nav-logo h1 {
+    font: 1.4rem bold;
+    color: lightseagreen;
+}
+
+.nav-logo h1:hover {
+    font: 1.42rem bold;
+}
+
+.navs {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+
+.navs a {
+    width: 20%;
+    color: lightseagreen;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+.navs a:hover {
+    font-size: 1.35rem;
+    color: black;
+}
+
+.navs .active {
+    font-size: 1.3rem;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .nav-main-cont {
+        padding: 5px;
+    }
+
+    .nav-logo {
+        width: 20%;
+        padding: 2px;
+        margin-left: 3%;
+    }
+
+    .nav-logo h1 {
+        font: 1rem bold;
+        color: lightseagreen;
+    }
+
+    .nav-logo h1:hover {
+        font: 1.02rem bold;
+    }
+
+    .navs {
+        width: 65%;
+        margin: 20px;
+    }
+
+    .navs a {
+        width: 30%;
+        margin: 0 auto;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .navs a:hover {
+        font-size: 0.71rem;
+
+    }
+
+    .navs .active {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,45 @@
+.slider-cont {
+    width: 600px;
+    height: 300px;
+    border: 4px #007bff solid;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.slider-cont button::before,
+::after {
+    color: black;
+    font-size: 30px;
+    margin: 0;
+}
+
+.slider-cont:hover {
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+    border-color: #007bff;
+}
+
+.img1 {
+    width: 600px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.img1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+@media (max-width: 768px) {
+    .slider-cont {
+        width: 70%;
+        height: 200px;
+        margin: 15px auto 20px;
+    }
+
+    .img1 {
+        width: 400px;
+        height: 200px;
+    }
+}
