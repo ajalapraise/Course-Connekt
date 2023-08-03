@@ -3,7 +3,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import img1 from '../../assets/Imgs//js/js2.jpg'
-import img2 from '../../assets/Imgs/jira/jira2.jpg'
+import img2 from '../../assets/Imgs/jira/jira2.png'
 import img3 from '../../assets/Imgs/uiux/ui2.png'
 import img4 from '../../assets/Imgs/ai/ai2.jpg'
 import img5 from '../../assets/Imgs/ml/ml2.jpeg'
