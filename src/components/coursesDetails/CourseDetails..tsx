@@ -1,7 +1,7 @@
 import { LayoutProps } from "../courseLayout/Layout";
 
 import js1 from "../../assets/Imgs/js/js2.jpg";
-import jira1 from '../../assets/Imgs/jira/jira2.jpg'
+import jira1 from '../../assets/Imgs/jira/jira2.png'
 import ui1 from '../../assets/Imgs/uiux/ui2.png'
 import ai1 from '../../assets/Imgs/ai/ai2.jpg'
 import dm1 from '../../assets/Imgs/dm/dm2.png'

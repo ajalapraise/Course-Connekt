@@ -1,4 +1,5 @@
 .cont {
+    margin: 0 auto;
     margin-top: 120px;
     padding: 15px;
     margin-bottom: 20px;
@@ -9,7 +10,6 @@
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 20px;
-    margin-left: 40px;
     text-align: left;
     color: black;
     margin-top: 5px;
@@ -20,12 +20,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 96%;
+    width: 90%;
     padding: 15px;
-    height: 200px;
     margin: 0 auto;
-    margin-bottom: 20px;
-    margin-right: 10px
+    min-height: 100px;
 }
 
 .course-cont:hover {
@@ -34,11 +32,18 @@
     border-color: #007bff;
 }
 
-.course-cont div {}
+.course-cont div {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
 
 .course-img {
-    width: 300px;
-    height: 200px;
+    margin: 15px auto;
+    max-width: 30%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
 }
 
 .course-img img {
@@ -50,7 +55,12 @@
 .course-details {
     color: black;
     padding: 5px;
-    width: 100%;
+    width: 80%;
+    margin: 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
 }
 
 .course-details h1 {
@@ -65,13 +75,17 @@
 .view-cont {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    margin-top: -20px;
+    padding: 5px;
 }
 
 .view-cont p {
     font-size: 15px;
     font-weight: 500;
-    margin-top: -10px;
     margin-right: 70px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -91,9 +105,9 @@ button:hover {
     background-color: white;
 }
 
-@media (max-width:768px) {
+@media (max-width:1000px) {
     .cont {
-        margin-top: 80px;
+        margin-top: 120px;
 
     }
 
@@ -103,7 +117,9 @@ button:hover {
 
     .course-cont {
         flex-direction: column;
-        margin-bottom: 30px;
+        width: 80%;
+        text-align: center;
+        justify-items: center;
     }
 
     .course-cont:hover {
@@ -112,10 +128,46 @@ button:hover {
         border-color: none;
     }
 
+    .course-img {
+        display: none;
+    }
+
+
+
     .course-details {
         margin-top: 0px;
         color: black;
         padding: 5px;
         width: 100%;
+        margin-left: -10px;
     }
+
+    .view-cont {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .view-cont p {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .cont {
+        margin-top: 80px;
+
+    }
+
+    .cont h2 {
+        font-size: 2rem;
+        margin-bottom: -10px;
+    }
+
+    .course-cont {
+        margin-bottom: -40px;
+    }
+
+
 }

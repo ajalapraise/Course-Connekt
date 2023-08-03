@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="sections-cont">
                 <div className='footer-logo'>
                     <h1>COURSE <br /> CONNEKT.</h1>
-                    <h4 className='copyright'>&copy; 2023 Course Connekt. <br /> All rights reserved.</h4>
+                    <h4 className='copyright'>&copy; 2023 Course Connekt.  All rights reserved.</h4>
 
                 </div>
 

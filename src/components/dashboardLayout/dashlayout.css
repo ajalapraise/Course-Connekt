@@ -270,7 +270,8 @@
     .detail-cont p {
         font-size: 16px;
         line-height: 25px;
-        padding: 12px;
+        padding: 5px;
+        width: 100%;
     }
 
     .section li {
