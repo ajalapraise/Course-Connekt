@@ -9,7 +9,6 @@ import MainLayout from './components/mainlayout/MainLayout'
 import Dashboard from './pages/dashboard/Dashboard'
 import Faq from './pages/faq/Faq'
 import About from './pages/AboutUs/About'
-import { FAQData } from './components/faqDetails/FAQData'
 
 function App() {
 

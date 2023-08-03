@@ -1,4 +1,3 @@
-import React from "react";
 import { LayoutProps } from "../courseLayout/Layout";
 
 import js1 from "../../assets/Imgs/js/js1.png";

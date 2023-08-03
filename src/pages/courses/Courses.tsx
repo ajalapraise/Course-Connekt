@@ -1,4 +1,3 @@
-import React from 'react'
 import { Layout1 } from '../../components/courseLayout/Layout'
 import { courseList } from '../../components/coursesDetails/CourseDetails.'
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link, useLocation } from 'react-router-dom'
 import './NavBar.css'
 
@@ -6,8 +5,7 @@ import './NavBar.css'
 
 const NavBar = () => {
     const location = useLocation();
-    const isLinkActive = (linkPath) => {
-        console.log(location.pathname === linkPath);
+    const isLinkActive = (linkPath: string) => {
         // Check if the current location path matches the linkPath
         return location.pathname === linkPath;
     };

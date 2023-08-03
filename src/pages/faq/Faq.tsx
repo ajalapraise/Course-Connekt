@@ -9,7 +9,7 @@ const Faq: React.FC<FAQProps> = () => {
         <div className="container mx-auto px-4 py-8 faq">
             <h1 className="text-3xl font-semibold mb-6">Frequently Asked Questions</h1>
             {FAQData.map((item, id) => (
-                <FAQlayout key={id} question={item.question} answer={item.answer} />
+                <FAQlayout key={id} question={item.question} answer={item.answer} id={0} />
             ))}
         </div>
     );

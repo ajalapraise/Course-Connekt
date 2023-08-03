@@ -9,9 +9,8 @@ import { courseList } from '../../components/coursesDetails/CourseDetails.';
 const Dashboard: React.FC = () => {
 
     const { id } = useParams<{ id: string }>();
-    const courseId = parseInt(id, 10);
+    const courseId = parseInt(id || '', 10);
 
-    // Retrieve the selected course details from the courseList array based on the courseId
     const selectedCourse: LayoutProps | undefined = courseList.find(
         (course) => course.id === courseId
     );
