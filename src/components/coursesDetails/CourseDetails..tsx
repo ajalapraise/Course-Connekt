@@ -1,13 +1,13 @@
 import { LayoutProps } from "../courseLayout/Layout";
 
-import js1 from "../../assets/Imgs/js/js1.png";
-import jira1 from '../../assets/Imgs/jira/jira1.png'
-import ui1 from '../../assets/Imgs/uiux/ui1.jpg'
-import ai1 from '../../assets/Imgs/ai/ai1.jpg'
-import dm1 from '../../assets/Imgs/dm/dm1.jpg'
-import ds1 from '../../assets/Imgs/ds/ds1.png'
-import rct1 from '../../assets/Imgs/react/rct1.jpg'
-import ml1 from '../../assets/Imgs/ml/ml1.jpg'
+import js1 from "../../assets/Imgs/js/js2.jpg";
+import jira1 from '../../assets/Imgs/jira/jira2.jpg'
+import ui1 from '../../assets/Imgs/uiux/ui2.png'
+import ai1 from '../../assets/Imgs/ai/ai2.jpg'
+import dm1 from '../../assets/Imgs/dm/dm2.png'
+import ds1 from '../../assets/Imgs/ds/ds2.jpg'
+import rct1 from '../../assets/Imgs/react/rct2.png'
+import ml1 from '../../assets/Imgs/ml/ml2.jpeg'
 
 export const courseList: LayoutProps[] = [
     {

@@ -19,12 +19,13 @@
 .course-cont {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 95%;
+    justify-content: space-between;
+    width: 96%;
     padding: 15px;
     height: 200px;
     margin: 0 auto;
     margin-bottom: 20px;
+    margin-right: 10px
 }
 
 .course-cont:hover {
@@ -32,6 +33,8 @@
     box-shadow: 0 0 5px #007bff;
     border-color: #007bff;
 }
+
+.course-cont div {}
 
 .course-img {
     width: 300px;
@@ -47,7 +50,7 @@
 .course-details {
     color: black;
     padding: 5px;
-    width: 700px;
+    width: 100%;
 }
 
 .course-details h1 {

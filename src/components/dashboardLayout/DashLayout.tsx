@@ -9,8 +9,8 @@ const DashLayout: React.FC<LayoutProps> = ({ img, courseInst, courseName, course
 
     return (
         <div className='dashlayout-cont'>
-            <div>
-                <Link to="/courses" className='back-arrow'>
+            <div className='back-arrow'>
+                <Link to="/courses">
                     <FiArrowLeft /> Go back
                 </Link>
             </div>

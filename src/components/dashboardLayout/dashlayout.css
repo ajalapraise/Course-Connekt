@@ -1,5 +1,12 @@
+.dash-cont {
+    padding: 25px;
+    background-color: rgb(245, 254, 254);
+    height: 100%;
+    margin: 100px auto 0;
+}
+
 .dashlayout-cont {
-    width: 1200px;
+    width: 80%;
     margin: 5px auto;
     padding: 10px;
     color: black;
@@ -12,10 +19,16 @@
     background-color: rgb(23, 126, 121);
     color: white;
     padding: 15px;
-    width: 30px;
-    height: 25px;
-    font-size: 15px;
+    width: 100px;
+    height: 20px;
+    font-size: 18px;
     border-radius: 5px;
+    text-align: center;
+}
+
+.back-arrow a {
+    text-decoration: none;
+    color: white;
 }
 
 .back-arrow:hover {
@@ -23,53 +36,58 @@
     color: rgb(23, 126, 121)
 }
 
+.back-arrow:hover a {
+    color: rgb(23, 126, 121);
+}
+
 .main-details {
     width: 100%;
     margin: 0 auto;
 }
 
-.dash-cont {
-    padding: 25px;
-    background-color: rgb(245, 254, 254);
-    height: 100%;
-    margin: 100px auto 0;
-}
 
 .header-cont {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     margin: 20px auto;
     padding: 20px;
     background-color: rgb(23, 126, 121);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
-    height: 180px;
+    min-height: 100px;
+    width: 90%;
 }
 
 .dashboard-details {
-    width: 650px;
+    padding: 10px;
+    justify-content: space-around;
     line-height: 20px;
     margin-top: 25px;
+    margin: 0 auto;
 }
 
 .dashboard-details h1 {
-    margin-top: 0;
-    margin-bottom: 20px;
-    font-size: 25px;
-    line-height: 35px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    line-height: 45px;
 }
 
 .dashboard-details h4 {
     margin-top: 0;
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 1.5rem;
+}
+
+.dashboard-details h5 {
+    font-size: 1.2rem;
 }
 
 .dashboard-img {
-    margin-top: 6px;
-    width: 300px;
-    height: 168px;
+    padding: 20px;
+    max-width: 30%;
+    max-height: 12.5rem;
 }
 
 .dashboard-img img {
@@ -94,28 +112,21 @@
 .sections {
     display: grid;
     grid-template: 3fr /1fr 1fr 1fr;
+    gap: 20px;
     justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
 
 }
 
-.sections div {
-    width: 300px;
-    min-height: 50px;
-    border: 2px solid lightseagreen;
-    margin: 10px auto;
-    padding: 12px;
-    border-radius: 10px;
+.section {
+    padding: 20px;
+    margin: 0 10px;
+    width: 90%;
 }
-
-.sections div:hover {
-    outline: none;
-    box-shadow: 0 0 5px #007bff;
-    border-color: #007bff;
-}
-
 
 .section h3 {
-    margin-top: 0;
+    margin: 0 auto;
     margin-bottom: -5px;
     font-size: 18px;
     width: 280px;
@@ -126,11 +137,151 @@
     font-size: 20px;
     line-height: 30px;
     padding: 12px;
+    width: 100%;
+    margin: 10px auto 20px;
+    text-align: justify;
+    margin-left: -10px;
+
 }
+
+.sections div {
+    min-height: 50px;
+    border: 2px solid lightseagreen;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+
+.sections div:hover {
+    outline: none;
+    box-shadow: 0 0 5px #007bff;
+    border-color: #007bff;
+}
+
+
+
 
 .section li {
     list-style: circle;
     font-size: 14px;
     margin-left: -20px;
     line-height: 27px;
+}
+
+@media (max-width: 1100px) {
+    .sections {
+        grid-template: 2fr /1fr 1fr;
+    }
+
+    .dashboard-details {
+        padding: 5px;
+    }
+
+    .dashboard-details h1 {
+        font-size: 1.5rem;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .dashboard-details h4 {
+        font-size: 1.3rem;
+    }
+
+    .dashboard-details h5 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .dash-cont {
+        margin: 50px auto 0;
+    }
+
+    .dashlayout-cont {
+        width: 90%;
+        margin: 5px auto;
+        padding: 10px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .header-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px auto;
+        padding: 20px;
+        background-color: rgb(23, 126, 121);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        height: auto;
+        text-align: center;
+    }
+
+    .dashboard-details {
+        margin-left: -10px;
+    }
+
+    .dashboard-details h1 {
+        font-size: 1.4rem;
+        line-height: 35px;
+        margin-bottom: 20px;
+    }
+
+    .dashboard-details h4 {
+        font-size: 1.2rem;
+    }
+
+    .dashboard-details h5 {
+        font-size: 0.8rem;
+    }
+
+    .dashboard-img {
+        margin-top: -20px;
+        max-width: 70%;
+        max-height: 30%;
+    }
+
+    .detail-cont {
+        padding: 15px;
+        margin: 0 auto;
+    }
+
+    .sections {
+        display: grid;
+        grid-template: repeat(3, 1fr) / 1fr;
+        justify-content: space-around;
+    }
+
+    .sections div {
+        width: 100%;
+        margin: 10px auto;
+        padding: 12px;
+        margin-left: -15px;
+    }
+
+    .section h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .detail-cont p {
+        font-size: 16px;
+        line-height: 25px;
+        padding: 12px;
+    }
+
+    .section li {
+        list-style: circle;
+        font-size: 14px;
+        margin-left: -20px;
+        line-height: 25px;
+    }
+
+    .back-arrow {
+        font-size: 10px;
+        padding: 10px;
+    }
 }
