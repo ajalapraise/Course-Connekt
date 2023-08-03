@@ -9,6 +9,7 @@ import MainLayout from './components/mainlayout/MainLayout'
 import Dashboard from './pages/dashboard/Dashboard'
 import Faq from './pages/faq/Faq'
 import About from './pages/AboutUs/About'
+import { FAQData } from './components/faqDetails/FAQData'
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
             <Route index element={<Homepage />} />
             <Route path="/courses/" element={<Courses />} />
             <Route path="/courses/:id" element={<Dashboard />} />
-            <Route path="/faq" element={<Faq />} />
+            <Route path="/faq" element={<Faq question={''} answer={''} id={0} />} />
             <Route path="/aboutUs" element={<About />} />
 
           </Route>
