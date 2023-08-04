@@ -16,25 +16,25 @@ export const FAQData = [
 
     {
         question: 'How do I enroll in a course?',
-        answer: 'You can enroll in a course by clicking on the Apply button on the course page. You will be redirected to the course page where you can start the course.',
+        answer: 'To enroll in a course by clicking on the Apply button on the course page. You will be redirected to the course page where you can start the course.',
         id: 2
     },
 
     {
         question: "What if I don't like the course?",
-        answer: 'You can drop the course anytime you want. You can also start another course if you want to.',
+        answer: "Please don't hesitate to make the decision to leave the course whenever you feel it's appropriate. Furthermore, if you're interested in pursuing another course, you're welcome to do so.",
         id: 3
     },
 
     {
-        question: 'What if I have any queries?',
+        question: 'For enquires and complaints, how can I contact you?',
         answer: 'You can contact us through the Contact Us page. We will get back to you as soon as possible.',
         id: 4
     },
 
     {
         question: 'Whats the duration of the course?',
-        answer: 'The duration of the course depends on the course you choose and how fast you complete the course.',
+        answer: 'The duration of the course depends on the course you choose and how fast you complete the course but the minumum duration is 6 month.',
         id: 5
     },
 

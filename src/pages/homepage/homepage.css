@@ -39,19 +39,19 @@
 }
 
 
-button:hover {
-    animation: 2s ease-in-out;
-}
 
 .body-btn {
     background-color: lightseagreen;
     width: 150px;
     height: 80px;
     font-size: 20px;
+    color: white;
 }
 
 .body-btn:hover {
     width: 180px;
+    animation: 2s ease-in-out;
+
 }
 
 @media (max-width: 768px) {
@@ -65,13 +65,13 @@ button:hover {
     }
 
     .body h3 {
-        font-size: 2.3rem;
+        font-size: 1.8rem;
         margin-bottom: 5px;
     }
 
     .body p {
         padding: 5px;
-        font-size: 1.8rem;
+        font-size: 1.1rem;
     }
 
     .body h5 {
@@ -83,10 +83,12 @@ button:hover {
         width: 120px;
         height: 60px;
         font-size: 15px;
+        color: white;
     }
 
     .body-btn:hover {
         background-color: none;
+        animation: none;
     }
 
 }

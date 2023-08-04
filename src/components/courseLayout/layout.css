@@ -24,6 +24,7 @@
     padding: 15px;
     margin: 0 auto;
     min-height: 100px;
+    margin-bottom: 20px;
 }
 
 .course-cont:hover {
@@ -113,6 +114,7 @@ button:hover {
 
     .cont h2 {
         font-size: 2rem;
+        margin-bottom: -10px;
     }
 
     .course-cont {
@@ -120,6 +122,9 @@ button:hover {
         width: 80%;
         text-align: center;
         justify-items: center;
+        border: #007bff 2px solid;
+        border-radius: 10px;
+        margin-bottom: 20px;
     }
 
     .course-cont:hover {
@@ -137,20 +142,29 @@ button:hover {
     .course-details {
         margin-top: 0px;
         color: black;
-        padding: 5px;
+        padding: 10px;
         width: 100%;
-        margin-left: -10px;
+        margin-left: -15px;
+    }
+
+    .course-details h1 {
+        margin-bottom: 40px;
     }
 
     .view-cont {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 20px;
     }
 
     .view-cont p {
-        font-size: 20px;
+        font-size: 15px;
         margin-bottom: 15px;
+    }
+
+    .view-cont button {
+        margin-bottom: -10px;
     }
 }
 
@@ -161,12 +175,25 @@ button:hover {
     }
 
     .cont h2 {
-        font-size: 2rem;
-        margin-bottom: -10px;
+        font-size: 1.8rem;
+    }
+
+    .course-details h1 {
+        font-size: 20px;
+        margin-bottom: 30px;
     }
 
     .course-cont {
-        margin-bottom: -40px;
+        margin-bottom: 20px;
+    }
+
+    .view-cont p {
+        margin-bottom: 20px;
+        font-size: 12px;
+    }
+
+    .view-cont button {
+        margin-bottom: -15px;
     }
 
 
