@@ -10,7 +10,7 @@
 
 .body h1 {
     font-size: 2.2rem;
-    width: 70%;
+    width: 75%;
     margin: 0 auto 20px;
 }
 
@@ -65,13 +65,15 @@
     }
 
     .body h3 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         margin-bottom: 5px;
+        font-weight: 600;
     }
 
     .body p {
         padding: 5px;
         font-size: 1.1rem;
+        font-weight: 100;
     }
 
     .body h5 {
