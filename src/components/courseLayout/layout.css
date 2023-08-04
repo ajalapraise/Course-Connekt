@@ -88,6 +88,7 @@
     margin-right: 70px;
     width: 100%;
     flex-basis: 85%;
+
 }
 
 .view-cont a {
@@ -161,10 +162,12 @@ button:hover {
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
+
     }
 
     .view-cont p {
         font-size: 15px;
+        margin: 0 auto;
         margin-bottom: 15px;
         line-height: 25px;
     }
@@ -194,6 +197,7 @@ button:hover {
     }
 
     .view-cont p {
+        margin: 0 auto;
         margin-bottom: 20px;
         font-size: 12px;
     }
