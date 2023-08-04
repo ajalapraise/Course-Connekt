@@ -47,13 +47,13 @@
 .body-btn {
     background-color: lightseagreen;
     width: 150px;
-    height: 80px;
+    height: 60px;
     font-size: 20px;
     color: white;
 }
 
 .body-btn:hover {
-    width: 180px;
+    width: 160px;
     animation: 2s ease-in-out;
 
 }

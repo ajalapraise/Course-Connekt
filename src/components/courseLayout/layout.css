@@ -76,9 +76,10 @@
 .view-cont {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: -20px;
     padding: 5px;
+    align-items: center;
 }
 
 .view-cont p {
@@ -86,7 +87,7 @@
     font-weight: 500;
     margin-right: 70px;
     width: 100%;
-    margin: 0 auto;
+    flex-basis: 85%;
 }
 
 .view-cont a {
