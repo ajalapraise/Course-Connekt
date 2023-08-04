@@ -38,6 +38,10 @@
     font-weight: lighter;
 }
 
+.body a {
+    text-decoration: none;
+    color: white;
+}
 
 
 .body-btn {
@@ -80,6 +84,8 @@
         font-size: 1.2rem;
         margin-bottom: 10px;
     }
+
+
 
     .body-btn {
         width: 120px;
